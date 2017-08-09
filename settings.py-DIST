@@ -1,5 +1,6 @@
 # Copy this file to settings.py and fill credentials
 
+from foursquare import Foursquare
 from peewee import PostgresqlDatabase
 
 host = ""
@@ -9,3 +10,10 @@ user = ""
 password = ""
 
 db = PostgresqlDatabase(db, user=user, password=password, host=host, port=port)
+
+
+fs_client = Foursquare(
+    client_id="",
+    client_secret='',
+    redirect_uri=''
+)
