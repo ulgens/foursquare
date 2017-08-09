@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Credentials
+settings.py
+
+# Intellij
+.idea/

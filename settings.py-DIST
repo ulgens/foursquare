@@ -1,0 +1,11 @@
+# Copy this file to settings.py and fill credentials
+
+from peewee import PostgresqlDatabase
+
+host = ""
+port =
+db = ""
+user = ""
+password = ""
+
+db = PostgresqlDatabase(db, user=user, password=password, host=host, port=port)
