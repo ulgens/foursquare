@@ -1,0 +1,7 @@
+# Tested with Python 2.7.12
+
+peewee==2.10.1
+
+# dev
+ipython
+ipdb
